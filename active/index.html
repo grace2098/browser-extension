@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browser extension</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div class="extension">
+            <div class="logo">
+                <img src="logo.svg">
+            </div>
+            <div id="toggledark">
+                 <img id="moon" width="20" height="20" src="https://img.icons8.com/sf-regular/48/moon-symbol.png" alt="moon-symbol"/>
+                  <img id="sun" width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/sun--v1.png" alt="sun--v1"/>
+                 
+            </div>
+        </div>
+        <div class="extension-list">
+            <h1>Extensions List</h1>
+            <div class="btns">
+                <button id="all" onclick="window.location.href='../main/index.html'">All</button>
+                <button id="active">Active</button>
+                <button id="inactive"onclick="window.location.href='../inactive/index.html'">Inactive</button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="write">
+                    <img src="logo-devlens.svg">
+                    <div class="writes">
+                        <h3>DevLens</h3>
+                        <p>Quickly inspect page layouts 
+                        and visualize element boundaries.</p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-style-spy.svg">
+                    <div class="writes">
+                        <h3>StyleSpy</h3>
+                        <p>Instantly analyze and copy
+                             CSS from any webpage element.</p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-json-wizard.svg">
+                    <div class="writes">
+                        <h3>JSONWizard</h3>
+                        <p>Formats, validates,
+                             and prettifies JSON responses in-browser.</p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-tab-master-pro.svg">
+                    <div class="writes">
+                        <h3>TabMaster Pro</h3>
+                        <p>Organizes browser tabs into groups and sessions.</p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-markup-notes.svg">
+                    <div class="writes">
+                        <h3> Markup Notes </h3>
+                        <p>Enables annotation and notes directly
+                             onto webpages for collaborative debugging.</p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-palette-picker.svg">
+                    <div class="writes">
+                        <h3>Palette Picker</h3>
+                        <p>Instantly extracts color
+                             palettes from any webpage. </p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-link-checker.svg">
+                    <div class="writes">
+                        <h3>LinkChecker</h3>
+                        <p>Scans and highlights broken links on any page.   </p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+            <div class="card">
+                <div class="write">
+                    <img src="logo-console-plus.svg">
+                    <div class="writes">
+                        <h3>ConsolePlus</h3>
+                        <p>Enhanced developer console with advanced
+                         filtering and logging.</p>
+                    </div>
+                 </div>
+                 <div class="toggle">
+                    <button>Remove</button>
+                       <label class="slide">
+                         <input type="checkbox" id="toggle">
+                         <div class="slider"></div>
+                        </label>
+                 </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
