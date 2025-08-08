@@ -22,10 +22,10 @@ moon.addEventListener("click", function() {
 
 const path = window.location.pathname;
 
-if (path.includes("/main/")) {
+if (path.includes("/index/")) {
   allBtn.classList.add("focus");
-} else if (path.includes("/active/")) {
+} else if (path.includes("/active1/")) {
   activeBtn.classList.add("focus");
-} else if (path.includes("/inactive/")) {
+} else if (path.includes("/inactive2/")) {
   inactiveBtn.classList.add("focus");
 }
