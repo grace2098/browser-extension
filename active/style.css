@@ -53,9 +53,9 @@ body.light-mode #inactive{
     background-color:hsl(200, 60%, 99%) ;
     color: black;
 }
-body.light-mode #all.focus,
-body.light-mode #active.focus,
-body.light-mode #inactive.focus{
+body.light-mode #all:focus,
+body.light-mode #active:focus,
+body.light-mode #inactive:focus{
     background-color:hsl(3, 77%, 44%);
     color: hsl(0, 0%, 93%);
 }
@@ -104,13 +104,13 @@ body.light-mode #inactive.focus{
     height: 40px;
     width: 60px;
     border-radius: 50px;
-    border: none;
-  background-color: rgba(82, 82, 82, 0.5);
+    /* border: none; */
+    background-color: rgba(82, 82, 82, 0.5);
     cursor: pointer;
-     color: white;
-      font-family: 'Noto Sans', sans-serif;
-   font-weight: 500;
-   font-size: 16px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 .btns #active{
     height: 40px;
@@ -136,9 +136,9 @@ body.light-mode #inactive.focus{
    font-weight: 500;
    font-size: 16px;
 }
-#all.focus,
-#active.focus,
-#inactive.focus {
+#all:focus,
+#active:focus,
+#inactive:focus {
   background-color:hsl(3, 71%, 56%);
   color: black;
 }
